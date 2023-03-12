@@ -29,6 +29,10 @@
   width: 100%;
   object-fit: cover;
   transition: transform var(--animation-duration) var(--timing-function);
+  box-shadow: none;
+  border-radius: 4px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .gallery__link {
